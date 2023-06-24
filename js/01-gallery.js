@@ -21,7 +21,7 @@ const clickItem = event => {
   event.preventDefault();
 
   const pressEscape = event => {
-    if (event.code === "ESCAPE") {
+    if (event.code === "Escape") {
       instance.close();
     }
   }
